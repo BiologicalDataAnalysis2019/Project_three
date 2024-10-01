@@ -2,3 +2,4 @@
 ## An example of an R package
 ### Author: April Wright
 
+For semester spring 2024.
