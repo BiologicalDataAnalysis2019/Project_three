@@ -1,0 +1,4 @@
+# Sample R Package
+## An example of an R package
+### Author: April Wright
+
