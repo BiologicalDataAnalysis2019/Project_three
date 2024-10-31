@@ -1,8 +1,15 @@
+#' Calculate means of a given column in dataframe
+#'
+#' @param path Path to a comma-separated values file
+#' @param column The column for which you'd like the mean
+#'
+#' @return result A numerical value representing the mean
+#' @export
 meanr = function(path, column){
-  dataframe = read_csv(path)
+  dataframe = readr::read_csv(path)
   result =  dataframe %>%
-    filter(!is.na({{column}})) %>%  
+    dyplr::filter(!is.na({{column}})) %>%
     #   summarise(max_value = max(weight))
-    summarise(mean_value = mean(weight))
+    dplyr::summarise(mean_value = mean(weight))
   return(result)
 }

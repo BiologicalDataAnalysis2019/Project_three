@@ -1,0 +1,19 @@
+Package: posteriortraceR
+Title: Tools for processing the results of a Bayesian Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "April", family = "Wright", email = "april.wright@selu.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Imports: 
+    dplyr,
+    ggplot2,
+    magrittr,
+    readr
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
